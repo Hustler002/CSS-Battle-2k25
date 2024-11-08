@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.navbar {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.navbar h1 {
+    color: red;
+    margin: 0;
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+.navbar h4 {
+    color: rgb(145, 140, 140);
+    margin: 0;
+    margin-left: -260px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.navbar input[type="text"] {
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 90px;
+    font-size: 16px;
+    border: 1px solid rgb(145, 140, 140);
+    border-radius: 125px;
+}
+  .navbar .links a {
+    margin-left: 20px;
+    color: #555;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .navbar .links a:hover {
+    color: #333;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  .character {
+    margin-top: 230px;
+    margin-bottom: 150px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(174, 118, 44, 0.767) 50%, rgba(0, 0, 0, 0.7)), url('character.jpg') center/cover no-repeat;
+  }
+  .character h3 {
+    position: absolute ;
+    margin-bottom: 160px;
+    margin-left: 110px;
+    size: 50px;
+    
+  }
+  .character h5 {
+    position: absolute ;
+    margin-bottom: 140px;
+    margin-left: 175px;
+    size: 50px;
+    text-decoration: none;
+    font-weight: lighter;    
+  }
+  .character.ironman h3 {
+    position: absolute ;
+    margin-bottom: 160px;
+    margin-left: 185px;
+    size: 50px;
+    
+  }
+  .character.ironman h5 {
+    position: absolute ;
+    margin-bottom: 140px;
+    margin-left: 195px;
+    size: 50px;
+    text-decoration: none;
+    font-weight: lighter;    
+  }
+  .character.blackwidow h3 {
+    position: absolute ;
+    margin-bottom: 160px;
+    margin-left: 160px;
+    size: 50px;
+    
+  }
+  .character.blackwidow h5 {
+    position: absolute ;
+    margin-bottom: 140px;
+    margin-left: 160px;
+    size: 50px;
+    text-decoration: none;
+    font-weight: lighter;    
+  }
+  .character.spiderman h3 {
+    position: absolute ;
+    margin-bottom: 160px;
+    margin-left: 170px;
+    size: 50px;
+    
+  }
+  .character.spiderman h5 {
+    position: absolute ;
+    margin-bottom: 140px;
+    margin-left: 190px;
+    size: 50px;
+    text-decoration: none;
+    font-weight: lighter;    
+  }
+  .character.captain{
+    background: linear-gradient(to bottom, rgb(44, 144, 174) 50%, rgba(174, 35, 144, 0.8)), url('character.jpg') center/cover no-repeat;
+
+  }
+  .character.ironman{
+    background: linear-gradient(to bottom, rgb(227, 88, 2) 50%, rgba(134, 149, 37, 0.519)), url('character.jpg') center/cover no-repeat;
+
+  }
+  .character.blackwidow{
+    background: linear-gradient(to bottom,  rgba(174, 35, 144, 0.8) 10%, rgb(44, 144, 174) 70%), url('character.jpg') center/cover no-repeat;
+
+  }
+  .character.spiderman{
+    background: linear-gradient(to bottom, rgba(208, 11, 11, 0.848) 50%, rgba(11, 101, 161, 0.958)), url('character.jpg') center/cover no-repeat;
+
+  }
+  .character.captain img{
+    z-index: 1;
+    width: 15%;
+    position: absolute;
+    margin-right: 200px;
+    margin-top: 150px;
+    
+  }
+  .character.ironman img{
+    z-index: 1;
+    width: 14%;
+    position: absolute;
+    margin-right: 130px;
+    margin-top: 60px;
+    
+  }
+  .character.blackwidow img{
+    z-index: 1;
+    width: 14%;
+    position: absolute;
+    margin-top: 150px;
+    margin-right: 175px;
+    
+  }
+.character.spiderman img{
+    z-index: 1;
+    width: 15%;
+    position: absolute;
+    margin-right: 110px;
+    margin-top: 60px;
+}
+
+  .footer {
+    background-color: white;
+    border-top: 2px solid rgb(239, 233, 233);
+    color: rgb(145, 140, 140);
+    margin-top: 50px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer a {
+    color: rgb(145, 140, 140);
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  .footer a:hover {
+    color: #ddd;
+  }
